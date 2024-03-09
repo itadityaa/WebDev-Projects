@@ -1,0 +1,40 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+nav {
+  background-color: #ffb961;
+  border-radius: 10px;
+  text-align: center;
+}
+.progress-container {
+  width: 60%;
+  height: 20px;
+  border: 2px solid #722d61;
+  border-radius: 10px;
+
+  margin: 10px auto;
+}
+.progress-bar {
+  background-color: #c05c7e;
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+
+  animation: animate_pBar 3s;
+}
+
+@keyframes animate_pBar {
+  0% {
+    width: 0;
+  }
+  90% {
+    width: 95%;
+  }
+  95% {
+    width: 90%;
+  }
+  100% {
+    width: 100%;
+  }
+}
