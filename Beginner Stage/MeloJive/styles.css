@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+/* img {
+  display: none;
+} */
+
+.main-container {
+  background-color: #cce3f9;
+  height: 110vh;
+  padding: 50px;
+}
+
+.mainContent {
+  background-color: #dbf9fb;
+  height: 90vh;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+ul {
+  list-style: none;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav .logo {
+  background-color: black;
+  color: #d5f0f5;
+  padding: 8px;
+  border-radius: 50px;
+}
+
+nav .userSettings ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+
+nav p {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+nav img {
+  height: 2vh;
+  border-radius: 50px;
+  margin-left: 10px;
+}
+
+.mainContainer {
+  /* background-color: #bfc6f2; */
+  display: flex;
+  justify-content: space-between;
+  height: 85vh;
+}
+
+.sideBar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.sideIcons li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 16px #7fc0cc;
+}
+
+.socialMedia li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 50px;
+  color: white;
+}
+
+.socialMedia li:nth-child(1) {
+  background-color: #1da1f2;
+}
+
+.socialMedia li:nth-child(2) {
+  background-color: #c13584;
+}
+
+.socialMedia li:nth-child(3) {
+  background-color: #4267b2;
+}
+
+.weeklyHighlights {
+  width: 55%;
+}
+
+.musicDescription {
+  width: 35%;
+}
+.musicDescription h1 {
+  font-size: 36px;
+  margin-top: 45px;
+  line-height: 40px;
+}
+.musicDescription h4 {
+  margin: 10px 0;
+}
+.musicDescription p {
+  font-size: 16px;
+  letter-spacing: -1px;
+}
+
+.musicImage {
+  width: 75%;
+}
